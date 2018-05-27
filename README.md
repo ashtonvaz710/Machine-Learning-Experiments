@@ -20,6 +20,12 @@ https://archive.ics.uci.edu/ml/datasets/spambase
 https://www-nlpir.nist.gov/projects/duc/guidelines/2001.html
 
 ## MovieLens 100K Ratings
+
+This data set consists of:<br />
+-- 100,000 ratings (1-5) from 943 users on 1682 movies. <br />
+-- Each user has rated at least 20 movies. <br />
+-- Simple demographic info for the users (age, gender, occupation, zip)<br />
+
 https://grouplens.org/datasets/movielens/100k/
 
 ## WIKI
@@ -36,55 +42,59 @@ http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.htm
 
 #### gaus2.txt
 
-Size - (6000, 2)
-Sample -
-7.57104365461 3.53027416598
-7.33721752493 4.26271315755
-3.07182783367 1.11801870519
-6.22685120927 3.66748946389
-3.51314172738 1.60312499421
-2.11414755757 4.98438844756
-7.92122198492 5.49139413264
-7.08129755568 4.06805753461
-8.93635675202 5.67349425456
-7.54226057103 4.86329324512
-6.60967392524 3.20500091301
-2.68660139089 3.08696738391
-8.6551549341 4.82722742644
-1.97686515357 1.64769621376
-...
+Size - (6000, 2) <br/> <br/>
+Sample - <br/> <br/>
+7.57104365461&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.53027416598 <br/>
+7.33721752493 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.26271315755 <br/>
+3.07182783367 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.11801870519 <br/>
+6.22685120927&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.66748946389 <br/>
+3.51314172738&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.60312499421 <br/>
+2.11414755757&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.98438844756 <br/>
+7.92122198492&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.49139413264 <br/>
+7.08129755568&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.06805753461 <br/>
+8.93635675202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.67349425456 <br/>
+7.54226057103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.86329324512 <br/>
+6.60967392524&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.20500091301 <br/>
+2.68660139089&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.08696738391 <br/>
+8.6551549341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.82722742644 <br/>
+1.97686515357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.64769621376 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
 
 #### gaus3.txt
 
-Size - (10000, 2)
-Sample -
-2.9469334747 3.1622249904
-5.98399601626 4.84671738077
-5.30142995063 8.16811309366
-6.49891238842 8.59485371241
-4.99487598576 8.67543539468
-8.7232858303 5.04333139135
-6.06916487448 3.85051399505
-3.97226025961 6.5133031275
-7.25378364909 3.86358970106
-7.11593455728 3.00735402918
-6.23178171249 6.7346309779
-5.20539786675 5.83858504049
-1.65717951796 3.27486608125
-3.59323666964 6.51747537985
-...
+Size - (10000, 2) <br/> <br/>
+Sample - <br/> <br/>
+2.9469334747&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1622249904 <br/>
+5.98399601626&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.84671738077 <br/>
+5.30142995063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.16811309366 <br/>
+6.49891238842&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.59485371241 <br/>
+4.99487598576&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.67543539468 <br/>
+8.7232858303 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.04333139135 <br/>
+6.06916487448&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.85051399505 <br/>
+3.97226025961&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.5133031275 <br/>
+7.25378364909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.86358970106 <br/>
+7.11593455728&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.00735402918 <br/>
+6.23178171249&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.7346309779 <br/>
+5.20539786675&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.83858504049 <br/>
+1.65717951796&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.27486608125 <br/>
+3.59323666964&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.51747537985 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
 
 #### dbscan.csv
-cluster	    pt	x	            y	            num_neighbors	neighbors
-	        0	51.41808903	    13.59361029	    2	            0,27
-	        1	39.1323184	    -4.419204415	3	            1,40,75
-	        2	47.8075151	    -25.82256055	1	            2
-	        3	27.69970293	    53.43419307	    1	            3
-	        4	39.86099482	    5.676870902	    3	            4,56,75
-	        5	-19.89185932	10.41027381	    3	            5,70,74
-	        6	-0.050282532	-4.032522276	3	            6,14,42
-	        7	18.56251189	    -28.65497991	1	            7
-	        8	-14.62990365	-4.887040158	5	            8,11,60,63,72
-	            ...
-	        79	-1.393233934	-55.29394275	1	            79
+cluster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pt :&nbsp;&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;	x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num_neighbors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;neighbors <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	51.41808903	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    13.59361029	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,27 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	39.1323184	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;-4.419204415&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,40,75 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	47.8075151	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-25.82256055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	27.69970293	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;53.43419307	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	39.86099482	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.676870902	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4,56,75 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	-19.89185932&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.41027381	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,70,74 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	-0.050282532&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-4.032522276&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,14,42 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	18.56251189	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-28.65497991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	-14.62990365&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-4.887040158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8,11,60,63,72 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. <br/>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	-1.393233934&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	-55.29394275&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	            79 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
