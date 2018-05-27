@@ -35,10 +35,10 @@ http://mattmahoney.net/dc/text8.zip
 
 #### Circles, Blobs, Moons
 
-Can be easily obtained from
-http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_circles.html
-http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_blobs.html
-http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html
+Can be obtained from <br/>
+http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_circles.html <br/>
+http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_blobs.html <br/>
+http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html <br/>
 
 #### gaus2.txt
 
